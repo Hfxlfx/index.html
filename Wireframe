@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My GitHub Website</title>
+    <style>
+      /* Add CSS styles here */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      .header h1 {
+        margin: 0;
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+      }
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+      }
+      .menu a:hover {
+        background-color: #555;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown-content a {
+        color: #333;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>HFXLFX</h1>
+      <div class="menu">
+        <div class="dropdown">
+          <a href="#">Menu</a>
+          <div class="dropdown-content">
+            <a href="#">Social Media</a>
+            <a href="#">Media Page</a>
+            <a href="#">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2>Welcome to my GitHub Website!</h2>
+    <p>This is an example of a basic HTML file for a GitHub website.</p>
+    <p>You can customize this file to add your own content and design.</p>
+  </body>
+</html>
